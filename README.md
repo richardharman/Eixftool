@@ -5,5 +5,8 @@ download exiftool here.
 https://www.sno.phy.queensu.ca/~phil/exiftool/
 
 script
-////TIF check and output to csv file
+////TIF check and output to csv file////////////////////Copy paste into terminal
+/////////////
+
+
 exiftool -csv -FileSize -AlphaChannelsNames -ColorSpace -ExifImageWidth -ExifImageHeight -ImageSize -ICC Profile Name -XResolution -YResolution -LayerCount -Compression *.tif> NAMEofOUTPUT.csv
