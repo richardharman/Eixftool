@@ -5,7 +5,7 @@ download exiftool here.
 https://www.sno.phy.queensu.ca/~phil/exiftool/
 
 script
-////TIF check and output to csv file////////////////////Copy paste into terminal
+////TIF check and output to csv file////////////////////Copy paste into terminal after cd directed into folder
 /////////////
 
 
