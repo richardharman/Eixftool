@@ -9,4 +9,4 @@ script
 /////////////
 
 
-exiftool -csv -FileSize -AlphaChannelsNames -ColorSpace -ExifImageWidth -ExifImageHeight -ImageSize -ICC Profile Name -XResolution -YResolution -LayerCount -Compression *.tif> NAMEofOUTPUT.csv
+exiftool -csv -FileSize -AlphaChannelsNames -ColorSpace -ProfileDescription -ImageSize -ICC Profile Name  -XResolution -YResolution -LayerCount -Compression *.tif> NAMEofOUTPUT.csv
