@@ -10,3 +10,7 @@ script
 
 
 exiftool -csv -FileSize -AlphaChannelsNames -ColorSpace -ProfileDescription -ImageSize -ICC Profile Name  -XResolution -YResolution -LayerCount -Compression *.tif> NAMEofOUTPUT.csv
+
+
+How to write metadata from csv to multiple files in directory in terminal, having csv in same directory: (The fullstop means current directory)
+exiftool -csv="nameofcsv.csv" .
