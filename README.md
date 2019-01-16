@@ -14,3 +14,6 @@ exiftool -csv -FileSize -AlphaChannelsNames -ColorSpace -ProfileDescription -Ima
 
 How to write metadata from csv to multiple files in directory in terminal, having csv in same directory: (The fullstop means current directory)
 exiftool -csv="nameofcsv.csv" .
+
+to remove all metada added if it was messed up:
+exiftool -all= -overwrite_original .
