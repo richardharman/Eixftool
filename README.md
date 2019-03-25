@@ -23,3 +23,8 @@ exiftool -all= -overwrite_original .
 exiftool -a -u -g1 a.jpg
 Print all meta information in an image, including duplicate and unknown tags, sorted by group (for family 1).
 this helps to distinguish from different xmps such as xmp-dc xmp-lr  (replace a.jpg with file)
+
+/// writing from Csv to files
+exiftool -csv="thumbnails - ShowNtell.csv" -overwrite_original .
+The pc version
+C:\Users\More-U-005\Desktop\AI\Experimental>exiftool -csv -sourcefile C:\Users\More-U-005\Desktop\AI\Experimental > C:\Users\More-U-005\Desktop\AI\Experimental\test.csv  (for windows instead of the fullstop)
