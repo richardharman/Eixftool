@@ -17,3 +17,9 @@ exiftool -csv="nameofcsv.csv" .
 
 to remove all metada added if it was messed up:
 exiftool -all= -overwrite_original .
+
+
+///
+exiftool -a -u -g1 a.jpg
+Print all meta information in an image, including duplicate and unknown tags, sorted by group (for family 1).
+this helps to distinguish from different xmps such as xmp-dc xmp-lr  (replace a.jpg with file)
