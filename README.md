@@ -28,3 +28,25 @@ this helps to distinguish from different xmps such as xmp-dc xmp-lr  (replace a.
 exiftool -csv="thumbnails - ShowNtell.csv" -overwrite_original .
 The pc version
 C:\Users\More-U-005\Desktop\AI\Experimental>exiftool -csv -sourcefile C:\Users\More-U-005\Desktop\AI\Experimental > C:\Users\More-U-005\Desktop\AI\Experimental\test.csv  (for windows instead of the fullstop)
+
+/////////
+
+exiftool -csv="Name ofCSV.csv" -overwrite_original .
+the above script avoids the duplicate file creation issue
+
+Shortcut option to avoid overriding of metadata
+1. extract existing metadata:
+exiftool -csv -description -keywords *.mp4> NAMEofOUTPUT.csv
+2. combine in sheet
+3.update to combined metadata:
+exiftool -csv="nameofcsvwithcombineddata.csv" -overwrite_original .
+
+
+
+
+
+
+
+
+
+
