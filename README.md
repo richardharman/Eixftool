@@ -43,7 +43,7 @@ exiftool -csv="nameofcsvwithcombineddata.csv" -overwrite_original .
 
 
 
-Exiftool: recursive data
+# Exiftool: recursive data
 exiftool -csv -r -FileSize -AlphaChannelsNames -ColorSpace -ProfileDescription -ImageSize -ICC Profile Name -XResolution -YResolution -LayerCount -Compression -FilePath . > NAMEofOUTPUT.csv
 
 
