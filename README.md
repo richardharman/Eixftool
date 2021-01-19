@@ -47,6 +47,6 @@ exiftool -csv="nameofcsvwithcombineddata.csv" -overwrite_original .
 exiftool -csv -r -FileSize -AlphaChannelsNames -ColorSpace -ProfileDescription -ImageSize -ICC Profile Name -XResolution -YResolution -LayerCount -Compression -FilePath . > NAMEofOUTPUT.csv
 
 
-
-
+# Exiftool recursive data with Video Considerations
+exiftool -csv -r -FileSize -AlphaChannelsNames -ColorSpace -ProfileDescription -ImageSize -ICC Profile Name -XResolution -YResolution -LayerCount -Compression -VideoFrameRate -Duration -BitDepth -AudioFormat -AudioChannels AudioBitsPerSample -VideoFieldOrder -FilePath . > Framerate2.csv
 
